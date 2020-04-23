@@ -3,7 +3,7 @@ pipeline {
   stages{
     stage("first stage,git clone"){
       steps{
-              git url: "https://github.com/xqcao/hellospring.git", branch: "master"
+              git url: "https://github.com/xqcao/ec2cicd.git", branch: "master"
             }
     }
     stage("2nd, generate k8s yml file"){
